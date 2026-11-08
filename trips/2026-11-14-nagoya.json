@@ -57,7 +57,6 @@
      "mode": "car",
      "from": "自宅",
      "to": "名古屋市美術館",
-     "dur": "未確認",
      "mapOrigin": null,
      "mapDest": "名古屋PARCO 駐車場",
      "detail": "名古屋市美術館近くの駐車場 or SCRAP近くの駐車場",
@@ -79,8 +78,7 @@
      "from": "名古屋市美術館",
      "to": "リアル脱出ゲーム名古屋店",
      "dur": "約20分（目安）",
-     "arr": "16:20",
-     "tentative": true
+     "arr": "16:20"
     },
     {
      "type": "event",
