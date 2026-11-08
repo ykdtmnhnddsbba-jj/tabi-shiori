@@ -1,10 +1,10 @@
 {
  "id": "2026-11-14-nagoya",
- "title": "名古屋日帰り（車）",
+ "title": "ゴッホ展 ＆ SCRAP謎解き",
  "dates": "2026年11月14日（土）",
  "members": "家族4人",
  "note": "「仮」の表示は未確定の予定・所要時間の目安です。",
- "packingTitle": "持ち物（仮）",
+ "packingTitle": "持ち物",
  "days": [
   {
    "label": "当日",
@@ -12,44 +12,57 @@
    "date": "2026-11-14",
    "items": [
     {
-     "type": "event",
-     "t": "09:00",
-     "title": "ふれあい広場",
-     "end": "12:00",
-     "icon": "🎪",
-     "noMap": true,
+     "type": "move",
+     "mode": "walk",
+     "from": "自宅",
+     "to": "学校",
+     "t": "07:30",
+     "arr": "08:00",
      "notes": [
-      "場所：確認中"
+      "いつもどおり登校"
      ]
     },
     {
+     "type": "event",
+     "t": "08:00",
+     "title": "ふれあい広場",
+     "end": "11:20",
+     "icon": "🎪",
+     "noMap": true,
+     "notes": [
+      "授業参観＆ふれあい広場"
+     ],
+     "venue": "学校"
+    },
+    {
      "type": "move",
-     "t": "12:00",
-     "mode": "car",
-     "from": "ふれあい広場",
-     "to": "名古屋PARCO",
-     "dur": "未確認",
-     "detail": "第二 or 第三駐車場に停める",
-     "mapOrigin": null,
-     "mapDest": "名古屋PARCO 駐車場",
-     "tentative": true
+     "mode": "walk",
+     "from": "学校",
+     "to": "自宅",
+     "t": "11:20",
+     "notes": [
+      "親子下校"
+     ],
+     "arr": "11:50"
     },
     {
      "type": "memo",
-     "t": "13:00",
-     "icon": "🍽",
-     "text": "昼食（栄エリアで）",
-     "tentative": true
+     "icon": "📝",
+     "t": "12:00",
+     "text": "本巣のマクドナルド or 自宅で適当に"
     },
     {
      "type": "move",
-     "t": "13:35",
-     "mode": "walk",
-     "from": "名古屋PARCO",
+     "t": "12:50",
+     "mode": "car",
+     "from": "自宅",
      "to": "名古屋市美術館",
-     "dur": "約20分（目安）",
-     "arr": "13:55",
-     "tentative": true
+     "dur": "未確認",
+     "mapOrigin": null,
+     "mapDest": "名古屋PARCO 駐車場",
+     "detail": "名古屋市美術館近くの駐車場 or SCRAP近くの駐車場",
+     "arr": "14:00",
+     "noMap": true
     },
     {
      "type": "event",
@@ -81,9 +94,8 @@
     {
      "type": "memo",
      "t": "18:30",
-     "icon": "🍽",
-     "text": "夕食（〜19:40ごろ）",
-     "tentative": true
+     "icon": "🍙",
+     "text": "夕食（その辺で適当に）"
     },
     {
      "type": "event",
@@ -101,16 +113,14 @@
      "to": "自宅",
      "dur": "約1時間15分（目安）",
      "arr": "23:15頃",
-     "noMap": true,
-     "tentative": true,
      "detail": "名古屋PARCOの駐車場から"
     }
    ]
   }
  ],
  "packing": [
-  "チケット（SCRAP 2公演・ゴッホ展）",
   "モバイルバッテリー",
   "上着"
- ]
+ ],
+ "summary": "日帰り・ゴッホ展＋SCRAP 2公演"
 }
