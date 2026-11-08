@@ -65,10 +65,10 @@ h2.sec{font-size:13px;color:var(--sub);margin:22px 4px 8px;letter-spacing:.05em}
 .stay .card{background:var(--accent-soft);border-left-width:6px;padding:12px 14px;box-shadow:0 2px 6px rgba(47,111,106,.18)}
 .stay .card .ti{font-size:17px}
 .memo .card{background:#fff;border:1px solid var(--line);border-radius:12px;color:var(--ink);padding:8px 12px;font-size:15px;box-shadow:none}
-.move .card{background:#dce9f7;border-left:6px solid var(--move);padding:10px 14px;border-radius:12px;box-shadow:0 2px 6px rgba(59,110,165,.22)}
-.move .card .ti{font-size:17px;font-weight:800;color:#1f4a78}
+.move .card{background:#dce9f7;border-left:6px solid var(--move);padding:12px 14px;border-radius:12px;box-shadow:0 2px 6px rgba(59,110,165,.22)}
+.move .card .ti{font-size:18px;font-weight:700;color:#1f4a78}
 .move .meta{font-size:14px;color:#2c4a68}
-.move .meta b{font-size:18px;color:#1f4a78;letter-spacing:.02em}
+.move .meta b{color:#1f4a78}
 .move .btn{font-size:13px;padding:6px 10px;background:var(--move);color:#fff;border:0}
 .it.move:before{width:12px;height:12px;left:-15px;top:14px;border-width:2px;background:var(--move)}
 .it.move .tm{font-weight:700;font-size:12px;color:var(--move)}
