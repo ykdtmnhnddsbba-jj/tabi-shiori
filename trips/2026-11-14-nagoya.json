@@ -1,0 +1,116 @@
+{
+ "id": "2026-11-14-nagoya",
+ "title": "名古屋日帰り（車）",
+ "dates": "2026年11月14日（土）",
+ "members": "家族4人",
+ "note": "「仮」の表示は未確定の予定・所要時間の目安です。",
+ "packingTitle": "持ち物（仮）",
+ "days": [
+  {
+   "label": "当日",
+   "short": "11/14（土）",
+   "date": "2026-11-14",
+   "items": [
+    {
+     "type": "event",
+     "t": "09:00",
+     "title": "ふれあい広場",
+     "end": "12:00",
+     "icon": "🎪",
+     "noMap": true,
+     "notes": [
+      "場所：確認中"
+     ]
+    },
+    {
+     "type": "move",
+     "t": "12:00",
+     "mode": "car",
+     "from": "ふれあい広場",
+     "to": "名古屋PARCO",
+     "dur": "未確認",
+     "detail": "第二 or 第三駐車場に停める",
+     "mapOrigin": null,
+     "mapDest": "名古屋PARCO 駐車場",
+     "tentative": true
+    },
+    {
+     "type": "memo",
+     "t": "13:00",
+     "icon": "🍽",
+     "text": "昼食（栄エリアで）",
+     "tentative": true
+    },
+    {
+     "type": "move",
+     "t": "13:35",
+     "mode": "walk",
+     "from": "名古屋PARCO",
+     "to": "名古屋市美術館",
+     "dur": "約20分（目安）",
+     "arr": "13:55",
+     "tentative": true
+    },
+    {
+     "type": "event",
+     "t": "14:00",
+     "title": "ゴッホ展",
+     "end": "16:00",
+     "venue": "名古屋市美術館",
+     "icon": "🎨"
+    },
+    {
+     "type": "move",
+     "t": "16:00",
+     "mode": "walk",
+     "from": "名古屋市美術館",
+     "to": "リアル脱出ゲーム名古屋店",
+     "dur": "約20分（目安）",
+     "arr": "16:20",
+     "tentative": true
+    },
+    {
+     "type": "event",
+     "t": "16:30",
+     "title": "黒き暗殺者(アサシン)からの脱出",
+     "end": "18:30",
+     "group": "SCRAP",
+     "venue": "リアル脱出ゲーム名古屋店",
+     "ticket": "https://scrapticket.jp/orders/show/2623508"
+    },
+    {
+     "type": "memo",
+     "t": "18:30",
+     "icon": "🍽",
+     "text": "夕食（〜19:40ごろ）",
+     "tentative": true
+    },
+    {
+     "type": "event",
+     "t": "20:00",
+     "title": "魔族潜む村からの脱出",
+     "end": "22:00",
+     "group": "SCRAP",
+     "venue": "リアル脱出ゲーム名古屋店"
+    },
+    {
+     "type": "move",
+     "t": "22:00",
+     "mode": "car",
+     "from": "リアル脱出ゲーム名古屋店",
+     "to": "自宅",
+     "dur": "約1時間15分（目安）",
+     "arr": "23:15頃",
+     "noMap": true,
+     "tentative": true,
+     "detail": "名古屋PARCOの駐車場から"
+    }
+   ]
+  }
+ ],
+ "packing": [
+  "チケット（SCRAP 2公演・ゴッホ展）",
+  "モバイルバッテリー",
+  "上着"
+ ]
+}

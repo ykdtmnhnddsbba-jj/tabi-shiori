@@ -1,0 +1,380 @@
+{
+ "id": "2026-07-19-tokyo",
+ "title": "神奈川・東京旅行",
+ "dates": "2026年7月19日（日）〜20日（月・祝）",
+ "members": "家族4人",
+ "note": "サンプル（過去の旅行）として作成。時刻はカレンダー記載のとおり。",
+ "packingTitle": "持ち物チェック",
+ "days": [
+  {
+   "label": "1日目",
+   "short": "7/19（日）",
+   "date": "2026-07-19",
+   "items": [
+    {
+     "type": "memo",
+     "t": "06:20",
+     "icon": "⏰",
+     "text": "起床"
+    },
+    {
+     "type": "memo",
+     "t": "07:20",
+     "icon": "🍙",
+     "text": "出発（朝ごはんはコンビニ or 岐阜羽島駅で買う）"
+    },
+    {
+     "type": "move",
+     "t": "07:20",
+     "mode": "car",
+     "from": "自宅",
+     "to": "岐阜羽島駅",
+     "dur": "約35分（目安）"
+    },
+    {
+     "type": "move",
+     "t": "08:32",
+     "mode": "shinkansen",
+     "from": "岐阜羽島駅",
+     "to": "新横浜駅",
+     "dur": "1時間52分",
+     "arr": "10:24",
+     "detail": "ひかり640",
+     "seat": "11号車 1番D/E席・2番D/E席",
+     "noMap": true
+    },
+    {
+     "type": "move",
+     "t": "10:29",
+     "mode": "train",
+     "from": "新横浜駅",
+     "to": "横浜駅",
+     "dur": "12分",
+     "arr": "10:41",
+     "detail": "快速 桜木町行"
+    },
+    {
+     "type": "move",
+     "t": "10:46",
+     "mode": "train",
+     "from": "横浜駅",
+     "to": "藤沢駅",
+     "dur": "19分",
+     "arr": "11:05",
+     "detail": "普通 平塚行"
+    },
+    {
+     "type": "move",
+     "t": "11:10",
+     "mode": "train",
+     "from": "藤沢駅",
+     "to": "片瀬江ノ島駅",
+     "dur": "6分",
+     "arr": "11:16",
+     "detail": "小田急江ノ島線 各停 片瀬江ノ島行"
+    },
+    {
+     "type": "memo",
+     "t": "11:20",
+     "icon": "🍽",
+     "text": "昼食：近くのデニーズ or コンビニで買って外で食べる",
+     "notes": [
+      "荷物を預けるなら、藤沢市観光センター（藤沢市片瀬海岸2-20-13）の「エクボクローク」を予約しておくと良い"
+     ]
+    },
+    {
+     "type": "memo",
+     "t": "12:00",
+     "icon": "📍",
+     "text": "BLUE Enoshima 到着"
+    },
+    {
+     "type": "event",
+     "t": "12:30",
+     "title": "BLUE Enoshima",
+     "end": "14:30",
+     "venue": "BLUE Enoshima",
+     "mapQuery": "BLUE Enoshima 江ノ島",
+     "icon": "🎫"
+    },
+    {
+     "type": "move",
+     "t": "14:47",
+     "mode": "train",
+     "from": "片瀬江ノ島駅",
+     "to": "藤沢駅",
+     "dur": "6分",
+     "arr": "14:53",
+     "detail": "江ノ島線 藤沢行"
+    },
+    {
+     "type": "move",
+     "t": "14:57",
+     "mode": "train",
+     "from": "藤沢駅",
+     "to": "池袋駅",
+     "dur": "58分",
+     "arr": "15:54",
+     "detail": "湘南新宿ライン 快速 籠原行"
+    },
+    {
+     "type": "stay",
+     "t": "16:05",
+     "title": "MIMARU東京 池袋 チェックイン",
+     "address": "東京都豊島区池袋2-61-1",
+     "tel": "03-5927-8877",
+     "mapQuery": "MIMARU東京 池袋",
+     "notes": [
+      "次の日の準備をこの時間で整える"
+     ]
+    },
+    {
+     "type": "move",
+     "t": "17:30",
+     "mode": "walk",
+     "from": "MIMARU東京 池袋",
+     "to": "サンシャインシティ アルパ",
+     "dur": "徒歩15分",
+     "arr": "17:45"
+    },
+    {
+     "type": "memo",
+     "t": "17:45",
+     "icon": "🍽",
+     "text": "晩ごはん：サンシャインシティ アルパ B1F SecretHoney"
+    },
+    {
+     "type": "move",
+     "t": "19:10",
+     "mode": "walk",
+     "from": "サンシャインシティ アルパ",
+     "to": "リドラの謎解きスタジオ",
+     "dur": "徒歩10分",
+     "arr": "19:20"
+    },
+    {
+     "type": "event",
+     "t": "19:30",
+     "title": "それでは、最終解答を提出してください。",
+     "open": "19:20",
+     "end": "21:30",
+     "group": "RIDDLER",
+     "venue": "リドラの謎解きスタジオ",
+     "ticket": "https://escape.id/me/ticket/d2458a5a-e6ff-4870-93be-6bf5190b05b7"
+    },
+    {
+     "type": "memo",
+     "t": "21:30",
+     "icon": "🏪",
+     "text": "謎解き終了。コンビニで明日の朝ごはんを買う"
+    },
+    {
+     "type": "memo",
+     "t": "22:00",
+     "icon": "🏨",
+     "text": "MIMARU東京 池袋 到着"
+    },
+    {
+     "type": "memo",
+     "t": "24:00",
+     "icon": "🛁",
+     "text": "お風呂に入って就寝"
+    }
+   ]
+  },
+  {
+   "label": "2日目",
+   "short": "7/20（月）",
+   "date": "2026-07-20",
+   "items": [
+    {
+     "type": "memo",
+     "t": "07:20",
+     "icon": "⏰",
+     "text": "起床・朝ごはん"
+    },
+    {
+     "type": "move",
+     "t": "08:30",
+     "mode": "walk",
+     "from": "MIMARU東京 池袋",
+     "to": "池袋駅",
+     "dur": "徒歩10分",
+     "notes": [
+      "途中のコンビニで昼ごはんを買う"
+     ]
+    },
+    {
+     "type": "move",
+     "t": "09:03",
+     "mode": "train",
+     "from": "池袋駅",
+     "to": "代々木駅",
+     "dur": "10分",
+     "arr": "09:13",
+     "detail": "山手線 内回り（新宿・渋谷方面）"
+    },
+    {
+     "type": "memo",
+     "t": "09:15",
+     "icon": "🧳",
+     "text": "代々木駅のロッカーに荷物を預ける（徒歩5分）",
+     "notes": [
+      "マルチエキューブの M-1"
+     ],
+     "link": {
+      "label": "マルチエキューブ",
+      "url": "https://multiecube.com/?from_at=2026-07-20&end_at=2026-07-20&q=%E4%BB%A3%E3%80%85%E6%9C%A8&when=specific_date"
+     }
+    },
+    {
+     "type": "event",
+     "t": "10:00",
+     "title": "手まり唄殺人事件からの脱出",
+     "open": "09:45",
+     "group": "Far＆Near",
+     "venue": "ファーニャー南新宿店",
+     "ticket": "https://escape.id/me/ticket/e21d46b4-4a6f-44f0-bec4-2761ba475cb4"
+    },
+    {
+     "type": "move",
+     "t": "12:17",
+     "mode": "train",
+     "from": "南新宿駅",
+     "to": "下北沢駅",
+     "dur": "9分",
+     "arr": "12:26",
+     "detail": "小田急線 本厚木行"
+    },
+    {
+     "type": "move",
+     "t": "12:26",
+     "mode": "walk",
+     "from": "下北沢駅",
+     "to": "スイッチ下北沢",
+     "dur": "徒歩5分",
+     "arr": "12:31"
+    },
+    {
+     "type": "event",
+     "t": "13:00",
+     "title": "ゲームは続く",
+     "open": "12:45",
+     "group": "TUMBLEWEED",
+     "venue": "タンブルウィード スイッチ下北沢",
+     "ticket": "https://escape.id/me/ticket/b27af266-40e9-4f96-b4d3-c261c4e23514",
+     "notes": [
+      "小学生・中学生はキャッシュバックあり"
+     ]
+    },
+    {
+     "type": "event",
+     "t": "16:00",
+     "title": "終末の黙示録～7つの災厄～",
+     "open": "15:45",
+     "end": "18:00",
+     "group": "NANICA下北沢",
+     "venue": "NANICA",
+     "mapQuery": "NANICA 下北沢",
+     "ticket": "https://escape.id/me/ticket/959186cd-8e56-46a4-8d98-fe151d5848b7?tab=current",
+     "notes": [
+      "ワンドリンク制：2,000円用意（500円×4人分）"
+     ]
+    },
+    {
+     "type": "move",
+     "t": "18:00",
+     "mode": "walk",
+     "from": "NANICA",
+     "to": "下北沢駅",
+     "dur": "徒歩2分",
+     "mapOrigin": "NANICA 下北沢",
+     "notes": [
+      "ここでコンビニで晩ごはんを買っておくのもあり"
+     ]
+    },
+    {
+     "type": "move",
+     "t": "18:39",
+     "mode": "train",
+     "from": "下北沢駅",
+     "to": "南新宿駅",
+     "dur": "約6分",
+     "detail": "小田急線 新宿行"
+    },
+    {
+     "type": "move",
+     "t": "18:48",
+     "mode": "walk",
+     "from": "南新宿駅",
+     "to": "代々木駅",
+     "dur": "徒歩6分"
+    },
+    {
+     "type": "memo",
+     "t": "18:54",
+     "icon": "🧳",
+     "text": "代々木駅のロッカーから荷物を回収"
+    },
+    {
+     "type": "move",
+     "t": "19:00",
+     "mode": "train",
+     "from": "代々木駅",
+     "to": "品川駅",
+     "dur": "18分",
+     "arr": "19:18",
+     "detail": "山手線 内回り（渋谷・品川方面）"
+    },
+    {
+     "type": "memo",
+     "t": "19:18",
+     "icon": "🍱",
+     "text": "品川駅で晩ごはんを買う"
+    },
+    {
+     "type": "move",
+     "t": "19:37",
+     "mode": "shinkansen",
+     "from": "品川駅",
+     "to": "岐阜羽島駅",
+     "dur": "1時間48分",
+     "arr": "21:25",
+     "detail": "ひかり661",
+     "seat": "13号車 15番D/E席・16番D/E席",
+     "noMap": true
+    },
+    {
+     "type": "move",
+     "t": "21:25",
+     "mode": "car",
+     "from": "岐阜羽島駅",
+     "to": "自宅",
+     "dur": "約35分（目安）",
+     "arr": "22:00",
+     "noMap": true
+    },
+    {
+     "type": "memo",
+     "t": "22:00",
+     "icon": "🏠",
+     "text": "自宅到着！おつかれさま 🎉"
+    }
+   ]
+  }
+ ],
+ "packing": [
+  "モバイルバッテリー",
+  "ぶどうくん",
+  "移動用ぬいぐるみ",
+  "こどものマイナンバーカード",
+  "酔い止め",
+  "スマホの充電器",
+  "タオル",
+  "こめちを一階に",
+  "1日目の服装決め",
+  "1日目の寝間着（ワンピース型しかないのでズボンも）",
+  "2日目の着替え・肌着・靴下",
+  "ワンドリンク代 2,000円（500円×4人／NANICA）"
+ ]
+}
