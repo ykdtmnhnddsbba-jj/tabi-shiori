@@ -4,6 +4,8 @@ var app=document.getElementById('app');
 var MODE={car:{i:'🚗',n:'車',tm:'driving'},shinkansen:{i:'🚄',n:'新幹線',tm:'transit'},train:{i:'🚃',n:'電車',tm:'transit'},walk:{i:'🚶',n:'徒歩',tm:'walking'}};
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
 function safeUrl(u){return /^https?:\/\//.test(u||'')?u:'';}
+function toMinN(t){var m=/^(\d{1,2}):(\d{2})$/.exec(t||'');return m?(+m[1])*60+(+m[2]):null;}
+function calcDur(a,b){var x=toMinN(a),y=toMinN(b);if(x==null||y==null||y<=x)return '';var d=y-x,h=Math.floor(d/60),m=d%60;return h?(m?h+'時間'+m+'分':h+'時間'):m+'分';}
 function toMin(t){if(!t)return null;var m=/^(\d{1,2}):(\d{2})$/.exec(t);return m?(+m[1])*60+(+m[2]):null;}
 function fetchJson(p){return fetch(p,{cache:'no-cache'}).then(function(r){if(!r.ok)throw new Error(p+' '+r.status);return r.json();});}
 function todayStr(){var d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
@@ -48,7 +50,7 @@ function itemHtml(it,idx){
     b+='<div class="ti">'+m.i+' '+esc(it.from)+' → '+esc(it.to)+'<span class="nowtag" hidden>今ここ</span></div>';
     var mm=[];
     if(it.t||it.arr)mm.push('<b>'+esc(it.t||'')+(it.arr?' → '+esc(it.arr):'')+'</b>');
-    mm.push(esc(m.n)+(it.dur?'・'+esc(it.dur):''));
+    var du=it.dur||calcDur(it.t,it.arr)||'';if(it.mode==='walk')du=du.replace(/^徒歩/,'');mm.push(esc(m.n)+(du?'・'+esc(du):''));
     if(it.detail)mm.push(esc(it.detail));
     b+='<div class="meta">'+mm.join('／')+'</div>';
     if(it.seat)b+='<div class="meta">💺 '+esc(it.seat)+'</div>';
