@@ -57,3 +57,20 @@ h2.sec{font-size:13px;color:var(--sub);margin:22px 4px 8px;letter-spacing:.05em}
 
 .nowtag[hidden],[hidden]{display:none!important}
 .it.tent .card{border:1px dashed #c9b27a;border-left:4px solid var(--warn)}
+
+/* 非移動を目立たせ、移動は控えめに */
+.event .card{background:var(--event-soft);border-left-width:6px;padding:12px 14px;box-shadow:0 2px 6px rgba(200,85,61,.18)}
+.event .card .ti{font-size:18px}
+.event .meta{font-size:14px}
+.stay .card{background:var(--accent-soft);border-left-width:6px;padding:12px 14px;box-shadow:0 2px 6px rgba(47,111,106,.18)}
+.stay .card .ti{font-size:17px}
+.memo .card{background:#fff;border:1px solid var(--line);border-radius:12px;color:var(--ink);padding:8px 12px;font-size:15px;box-shadow:none}
+.move .card{background:transparent;box-shadow:none;border-left:3px solid #b9cde3;padding:4px 10px;border-radius:0}
+.move .card .ti{font-size:13px;font-weight:600;color:var(--sub)}
+.move .meta{font-size:12px}
+.move .btn{font-size:12px;padding:4px 8px;background:#fff;color:var(--move);border:1px solid var(--move)}
+.it.move:before{width:6px;height:6px;left:-12px;top:12px;border-width:1px}
+.it.move .tm{font-weight:500;font-size:11px}
+.it.tent .card{border:1px dashed #c9b27a;border-left:4px solid var(--warn)}
+.it.move.tent .card{background:transparent}
+.it.now .card{outline:2px solid #e0a100}
