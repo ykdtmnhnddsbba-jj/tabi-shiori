@@ -17,7 +17,8 @@ h2.sec{font-size:13px;color:var(--sub);margin:22px 4px 8px;letter-spacing:.05em}
 .trip-head{padding:6px 4px 10px}
 .trip-head h1{font-size:20px;margin:0}
 .trip-head .d{color:var(--sub);font-size:13px}
-.tabs{display:flex;gap:6px;position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0}
+.nav{position:sticky;top:0;z-index:5;background:var(--bg);padding:6px 0 4px}
+.tabs{display:flex;gap:6px;padding:2px 0}
 .tab{flex:1;border:1px solid var(--line);background:#fff;border-radius:10px;padding:8px 4px;font-size:14px;font-weight:600;color:var(--ink);font-family:inherit}
 .tab small{display:block;font-weight:400;color:var(--sub);font-size:11px}
 .tab.on{background:var(--accent);border-color:var(--accent);color:#fff}
@@ -75,3 +76,39 @@ h2.sec{font-size:13px;color:var(--sub);margin:22px 4px 8px;letter-spacing:.05em}
 .it.tent .card{border:1px dashed #c9b27a;border-left:4px solid var(--warn)}
 .it.move.tent .card{background:#eef3f9}
 .it.now .card{outline:2px solid #e0a100}
+
+/* 行程／メモ 切替 */
+.views{display:flex;background:#e3e8e6;border-radius:12px;padding:3px;margin-bottom:6px}
+.view{flex:1;border:0;background:transparent;border-radius:10px;padding:8px 4px;font:inherit;font-size:14px;font-weight:700;color:var(--sub)}
+.view.on{background:#fff;color:var(--accent);box-shadow:0 1px 3px rgba(0,0,0,.15)}
+.mtabs{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.mtabs .tab{flex:0 0 auto;padding:8px 14px;white-space:nowrap}
+
+/* メモ本文（Markdown） */
+.md{background:var(--card);border-radius:14px;padding:14px 16px 16px;box-shadow:0 1px 3px rgba(0,0,0,.08);margin-top:8px;font-size:15px;line-height:1.75;overflow-wrap:anywhere}
+.md .mhead{font-size:19px;font-weight:700;margin-bottom:6px}
+.md h2,.md h3,.md h4,.md h5{scroll-margin-top:120px;line-height:1.4}
+.md h2{font-size:17px;margin:22px 0 8px;padding:6px 10px;background:var(--accent-soft);color:var(--accent);border-left:5px solid var(--accent);border-radius:8px}
+.md h3{font-size:16px;margin:18px 0 6px;padding-bottom:3px;border-bottom:2px solid var(--accent-soft)}
+.md h4{font-size:15px;margin:14px 0 4px;color:var(--accent)}
+.md h5{font-size:14px;margin:12px 0 2px;color:var(--sub)}
+.md p{margin:8px 0}
+.md ul,.md ol{margin:6px 0;padding-left:22px}
+.md li{margin:3px 0}
+.md li.task{list-style:none;margin-left:-22px}
+.md blockquote{margin:10px 0;padding:6px 12px;background:var(--warn-soft);border-left:5px solid var(--warn);border-radius:8px}
+.md blockquote>:first-child{margin-top:4px}.md blockquote>:last-child{margin-bottom:4px}
+.md hr{border:0;border-top:1px solid var(--line);margin:16px 0}
+.md .tbl{overflow-x:auto;margin:10px 0}
+.md table{border-collapse:collapse;width:100%;font-size:14px}
+.md th,.md td{border:1px solid var(--line);padding:6px 10px;text-align:left}
+.md th{background:var(--accent-soft);color:var(--accent);white-space:nowrap}
+.md code{background:#eef1f0;border-radius:4px;padding:1px 5px;font-size:.92em}
+.md mark{background:#fff1a8;padding:0 2px;border-radius:3px}
+.md del{color:var(--sub)}
+.ck{display:flex;gap:10px;align-items:flex-start;padding:3px 0}
+.ck input{width:20px;height:20px;margin-top:5px;accent-color:var(--accent);flex:none}
+.ck input:checked+span{color:var(--sub);text-decoration:line-through}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 4px}
+.toc button{border:1px solid var(--line);background:#fff;border-radius:99px;padding:4px 11px;font:inherit;font-size:13px;color:var(--accent)}
+.md .note{font-size:12px;color:var(--sub);margin-top:18px}
