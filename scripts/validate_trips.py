@@ -66,6 +66,12 @@ def validate(t):
                 if last is not None and m < last: E(f'時刻が前の項目({lt})より早く、順序が逆')
                 last, lt = m, it['t']
     if not t.get('packing'): add('warn', '全体', '持ち物が空')
+    for m in t.get('memos') or []:
+        nm = (m.get('title') or '').strip()
+        if not nm: add('warn', '全体', '名前のないメモがある')
+        body = m.get('body')
+        txt = '\n'.join(body) if isinstance(body, list) else (body or '')
+        if not str(txt).strip(): add('warn', '全体', f"メモ「{nm or '無題'}」の本文が空")
     return out
 
 if __name__ == '__main__':
